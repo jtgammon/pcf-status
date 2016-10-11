@@ -1,0 +1,3 @@
+package: pcf-status
+import:
+- package: github.com/rs/cors

@@ -1,0 +1,12 @@
+hash: a27521d172071ebf822945a597c3827eda57647814fd818105bcf6616160fcf7
+updated: 2016-10-11T03:40:09.768833773-04:00
+imports:
+- name: github.com/rs/cors
+  version: a62a804a8a009876ca59105f7899938a1349f4b3
+- name: github.com/rs/xhandler
+  version: ed27b6fd65218132ee50cd95f38474a3d8a2cd12
+- name: golang.org/x/net
+  version: cf4effbb9db1f3ef07f7e1891402991b6afbb276
+  subpackages:
+  - context
+devImports: []
