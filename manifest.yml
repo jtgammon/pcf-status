@@ -3,5 +3,10 @@ applications:
 - name: pcf-status
   host: status
   memory: 8M
-  buildpack: go_buildpack
+  buildpack: binary_buildpack
   instances: 1
+  command: './pcf-status'
+  env:
+    UAA_ADDRESS: https://opsmgr.haas-81.pez.pivotal.io/
+    OPSMAN_USER: admin
+#    OPSMAN_PASSWORD:
