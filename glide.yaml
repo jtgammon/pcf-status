@@ -1,7 +1,0 @@
-package: github.com/ECSTeam/pcf-status
-license: Apache 2.0
-owners:
-- name: Martin Kreibe
-  email: mkreibe@ecsteam.com
-imports:
-  - package: github.com/rs/cors
